@@ -11,4 +11,17 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'databinding';
+  uname = 'anjali';
+  uage =18;
+  ucolor ='red';
+  col=3;
+  
+
+  ipath = 'assets/images/logo.png';
+  student= [
+    {name:'Anjali', age:23,phone:7388899098},
+    {name:'Akshay', age:30 ,phone:9878899098},
+    {name:'prachi', age:25 ,phone:7389867098},
+    {name:'vaishu', age:24 ,phone:8765499989}
+  ]
 }
